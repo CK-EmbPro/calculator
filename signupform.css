@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: darkslategrey;
+}
+
+
+.form-container {
+    padding: 10px;
+    position: absolute;
+    left: 25%;
+    top: 10%;
+
+    background: linear-gradient(grey,lightgreen);
+    border: 9px solid grey;
+    border-radius: 5px;
+    margin: -10px 30% 30% 10px;
+}
+
+
+.minor-container{
+    background: linear-gradient(lightgreen,grey);
+    border-radius: 9px;
+    
+}
+
+
+form{
+   display: flex;
+   flex-direction: column;
+   padding: 30px;
+   font-size: 20px;
+   font-style: italic;
+   font-weight: bold;
+}
+
+
+
+h1{  
+    color: lightblue;
+    text-align: center;
+}                                        
+ 
+
+
+h2{
+    text-align: center;
+    margin: 10px 0px 15px 0px;
+    color: darkslategrey;
+    text-decoration: underline;
+   }
+
+form input{
+    padding: 3px 5px;
+    margin: 0px 30px;
+    border-radius: 9px;
+    border: 1px solid green;
+    height: 40px;
+}
+
+
+form label{
+margin: 0px 30px;
+color: black;
+}
+
+
+form .buttons{
+    margin: 20px 30% 0px;
+    cursor: pointer;
+}
+
+.btn1{
+    background-color: burlywood;
+    box-shadow: 2px 2px 5px 3px black ;   
+}
+.btn2{
+    background-color: darkolivegreen;
+    box-shadow: 2px 2px 5px 3px black;
+}
+
+.btn1:hover{
+    color: burlywood;
+    background-color: black;
+    border: 0px solid black;
+    transition: 0.5s ease-in-out;
+}
+
+.btn2:hover{
+    color: darkolivegreen;
+    background-color: black;
+    border: 0px solid black;
+    transition: 0.5s ease-in-out;
+}
+input{
+    border: none;
+    outline: none;
+}
+
+.firstparagraph{
+    padding-bottom: 10px;
+    padding-left: 28px;
+    padding-right: 10px;
+    font-family: aerial;
+    font-size: 20px; 
+    color: black;
+    text-shadow: 5px 5px 2px black;
+}
+
+
+
